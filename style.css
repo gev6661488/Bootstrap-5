@@ -1,0 +1,93 @@
+.block {
+	border: 1px solid;
+	height: 100px;
+}
+.block_box_1 {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border: 1px solid;
+	height: 100%;
+}
+.block_box_1 h1{
+	font-size: 50px;
+	font-family: monospace;
+	color: purple;
+}
+.bars {
+	font-size: 50px;
+}
+.block_2_box_1{
+	border: 1px solid;
+	height: 500px;
+	background-color: Gainsboro;
+}
+.block_2_box_2{
+	background-color: Gainsboro;
+	border: 1px solid;
+	height: 500px;
+}
+.block_2_box_2 h1{
+	text-decoration: underline;
+	padding-bottom: 40px;
+	font-family: sans-serif;
+}
+.block_2_box_2 button {
+	background-color: orange;
+	width: 200px;
+	height: 50px;
+	font-family: fantasy;
+}
+.block_3 {
+	border: 1px solid;
+	height: 250px;
+	display: flex;
+	justify-content: space-between;
+}
+.block_3_box {
+	border: 1px solid;
+	height: 100%;
+	background-color: orange;
+	text-align: center;
+	padding: 80px;
+	color: white;
+}
+.block_4_box {
+	border: 1px solid;
+	height: 500px;
+}
+.block_4_box_2 {
+	border: 1px solid;
+}
+.block_4_box_2 h1 {
+	font-size: 50px;
+	font-family: cursive;
+}
+.block_4_box_2 button {
+	width: 250px;
+	height: 60px;
+	background-color: white;
+	color: orange;
+	font-family: cursive;
+}
+.block_5 {
+	border: 1px solid;
+	height: 800px;
+	position: relative;
+	background-color: orange;
+}
+.block_5_box {
+	position: absolute;
+	top: 70px;
+	left: 155px;
+}
+.block_5_box_2 {
+	position: absolute;
+	bottom: 30px;
+	right: 650px;
+}
+.block_5_box_3 {
+	position: absolute;
+	top: 20px;
+	right: 250px;
+}
